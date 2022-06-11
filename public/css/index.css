@@ -1,0 +1,15 @@
+:root {
+  margin: auto;
+  color: #fff;
+  background-color: #301020;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1000px;
+}
+
+h1 {
+  margin-block: 3rem;
+}
+
+h2 {
+  margin-block: 2rem;
+}

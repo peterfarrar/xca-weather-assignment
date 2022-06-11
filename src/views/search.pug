@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title Weather Search
+    link(rel="stylesheet" href="/css/index.css")
+  body
+    header
+      h1 My Incredible Weather App 
+
+    main 
+      h2 Enter a location and press the submit button
+      form(action="/display" method="post")
+        label(for="location") Location 
+        input(type="text" id="location" name="location")
+        p 
+          button(type="submit") Search 
